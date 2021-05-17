@@ -4,10 +4,11 @@ public class Launcher {
     public static void main(String[] args) {
         System.out.println("salut la commu");
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        if (!input.equals("quit"))
-        {
+        scanner.nextLine();
+        String input;
+        do {
             System.out.println("Unknown command");
-        }
+            input = scanner.nextLine();
+        }while (!input.equals("quit"));
     }
 }
