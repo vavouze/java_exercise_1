@@ -9,6 +9,7 @@ public class Launcher {
         commandList.add(new Quit());
         commandList.add(new Fibo());
         commandList.add(new Freq());
+        commandList.add(new Predict());
         boolean stop = false;
         boolean unknown = false;
         do {
